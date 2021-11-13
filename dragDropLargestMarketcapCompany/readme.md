@@ -1,3 +1,3 @@
 ### Project
 
-<img src="./img/projectImg.png" width="1000">
+<img src="./img/projectImg.png" width="500">
