@@ -48,18 +48,18 @@ function createList() {
 }
 
 function dragStart() {
-  console.log('dragStart function');
+  // console.log('dragStart function');
 
   startIndex = this.getAttribute('data-index');
   console.log('startIndex', startIndex);
 }
 
 function dragOver(e) {
-  console.log('dragOver function');
+  // console.log('dragOver function');
   e.preventDefault();
 }
 function dragDrop() {
-  console.log('dragDrop function');
+  // console.log('dragDrop function');
 
   endIndex = this.getAttribute('data-index');
   swapItem(startIndex, endIndex);
@@ -67,12 +67,12 @@ function dragDrop() {
   this.classList.remove('over');
 }
 function dragEnter() {
-  console.log('dragEnter function');
+  // console.log('dragEnter function');
 
   this.classList.add('over');
 }
 function dragLeave() {
-  console.log('dragLeave function');
+  // console.log('dragLeave function');
 
   this.classList.remove('over');
 }
